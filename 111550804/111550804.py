@@ -144,23 +144,6 @@ def heuristic(board):
 
 
 def make_your_move(board):
-    #**********
-    # TODO HERE:
-    # 1.You CANNOT directly modify "board" in this function
-    # 2.just return "row_or_col" and "subtract"
-    # 3.You can call check_valid() if you want
-    # row_or_col: 1st_row, 2nd_row, 3rd_row -> 0, 1, 2 ; 1st_col, 2nd_col, 3rd_col -> 3, 4, 5
-    # subtract: number to subtract, should be 1, 2 or 3 (don't forget restriction!)
-    #**********
-
-    # row_or_col = 3
-    # subtract = 1
-
-    # row_or_col = int(input())
-    # subtract = int(input())
-
-    # return row_or_col, subtract
-
     #initialize the best score to minus infinity and no best move
     best_score = float('-inf')
     best_move = None
